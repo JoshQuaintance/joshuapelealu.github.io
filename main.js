@@ -50,7 +50,10 @@ $(document).on("scroll", () => {
 	}
 });
 
-$(document).on("load", () => {
+$(document).ready(() => {
+	console.log("run");
+	$("body").addClass("pageLoaded");
+
 	if ($(document).scrollTop() > 100) {
 		$("header").addClass("scrolled-over");
 		$("#responsiveBars").addClass("bar-scrolled-over");
@@ -60,11 +63,6 @@ $(document).on("load", () => {
 		$("#responsiveBars").removeClass("bar-scrolled-over");
 		$(".headerContainer").removeClass("headerContScrolled");
 	}
-});
-
-$(document).ready(() => {
-	console.log("run");
-	$("body").addClass("pageLoaded");
 });
 
 /**
