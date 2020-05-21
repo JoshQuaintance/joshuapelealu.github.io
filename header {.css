@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    position: sticky;
+    top: 20px;
+    margin-left: 100px;
+}
+
+
+/* Header Logo */
+.headerLogo {
+    float: left;
+    margin-top: 6px;
+}
+
+nav {
+    float: right !important;
+    margin-right: 50px;
+}
+
+/* Nav Bar */
+nav a {
+    font-family: 'Modak', cursive;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition: all .5s ease;
+    
+}
